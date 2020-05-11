@@ -1,4 +1,4 @@
-FROM jean-cyril/8-jdk-alpine-fj-portal:1.0.0
+FROM jcvercucque/portal:1.0.0
 
 RUN apk update && \
     apk upgrade && \
